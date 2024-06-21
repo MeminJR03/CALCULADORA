@@ -1,26 +1,31 @@
 <!doctype html>
 <html>
     <head>
-        <title> MI PRIMERA CALCULADORA</title>
+        <title> GRUPO 1</title>
         <link rel="stylesheet" type="text/css" href="stylocal.css">
     </head>
     <body>
-        <h2>.....CALCULADORA......</h2>
+        <h2>.....GRUPO LOS PAPAITOS S.A.S......</h2>
         <H2></H2>
-        <!-- <input type="text" id="txtPRINCIPAL" placeholder="0"> -->
-        <input type="text" id="resultado" readonly>
         <br>
         <h3></h3>
-        <button onclick="agregardato(%)">%</button> <button onclick="agregardato(2)"> CE </button><button onclick="agregardato(-)"> C </button> <button onclick="agregardato(---)"> <- </button>
-        
+        <button id="miBoton">CALCULADORA IT. MUÑOZ MAURICIO</button>
+        <a id="miEnlace" href="https://github.com/MeminJR03/CALCULADORA/tree/main/Mu%C3%B1oz" style="display: none;"></a> 
+        <script>
+            const boton = document.getElementById('miBoton');
+            const enlace = document.getElementById('miEnlace');
+            boton.addEventListener('click', () => {
+                enlace.style.display = 'block';
+                location.href = enlace.href;
+            });
+        </script>
         <H3></H3>
-        <button onclick="agregardato(7)">7</button> <button onclick="agregardato(8)">8</button> <button onclick="agregardato(9)">9</button> <button onclick="agregardato(/)"> / </button>
+        <button id="miBoton">CALCULADORA SI. MARQUEZ FABIAN</button> 
         <H3></H3>
-        <button onclick="agregardato(4)">4</button> <button onclick="agregardato(5)"> 5 </button><button onclick="agregardato(6)"> 6 </button> <button onclick="agregardato(-)"> - </button>
+        <button id="miBoton">CALCULADORA SI. ALVES DUVAN</button> 
         <H3></H3>
-        <button onclick="agregardato(1)"> 1 </button><button onclick="agregardato(2)"> 2 </button><button onclick="agregardato(3)"> 3 </button> <button onclick="agregardato(+)"> + </button>
+        <button id="miBoton">CALCULADORA PT. ACHURY STIVENT</button> 
         <H3></H3>
-        <button onclick="agregardato(0)"> 0 </button><button onclick="agregardato(,)"> , </button><button onclick="agregardato(operacion)"> __=__ </button>
         <style>
             button
             {
