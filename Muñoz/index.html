@@ -16,7 +16,7 @@
         <div class="calculadora">
             <div class="display">
                 <div id="valor-anterior"></div>
-                <div id="valor-actual" ></div>
+                <div id="valor-actual"></div>
             </div>
             <button class="col-2" onclick="display.borrartodo()">C</button> <!--crear doble espacio en el boton-->
             <button onclick="display.borrar()">&larr;</button> <!--crear la flecha hacia atras-->
@@ -33,11 +33,20 @@
             <button class="numero">2</button>
             <button class="numero">3</button>
             <button class="operador" value="sumar">+</button>
-            <button class="col-2 numero">0</button>
+            <button class="numero">0</button>
             <button class="numero">.</button>
             <button class="operador" value="igual">=</button>
+            <button id="instruccion">RET</button>
+            <a id="miEnlace" href="../index.html" style="display: none;"></a>
+            <script>
+                const boton = document.getElementById('instruccion');
+                const enlace = document.getElementById('miEnlace');
+                boton.addEventListener('click', () => {
+                    enlace.style.display = 'block';
+                    location.href = enlace.href;
+                });
+            </script>
         </div>
-
-    </div>
-</body>
+        </div >
+    </body >
 </html>
