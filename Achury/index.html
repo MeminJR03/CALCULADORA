@@ -6,22 +6,30 @@
 </head>
 <body>
     <h2>.....CALCULADORA......</h2>
-    <H2></H2>
-    <!-- <input type="text" id="txtPRINCIPAL" placeholder="0"> -->
-    <input type="text" id="resultado" readonly>
-    <br>
-    <h3></h3>
-    <button onclick="agregardato(%)">%</button> <button onclick="agregardato(2)"> CE </button><button onclick="agregardato(-)"> C </button> <button onclick="agregardato(---)"> <- </button>
-
-    <H3></H3>
-    <button onclick="agregardato(7)"> 7 </button> <button onclick="agregardato(8)"> 8 </button> <button onclick="agregardato(9)">9</button> <button onclick="agregardato(/)"> / </button>
-    <H3></H3>
-    <button onclick="agregardato(4)"> 4 </button> <button onclick="agregardato(5)"> 5 </button><button onclick="agregardato(6)"> 6 </button> <button onclick="agregardato(-)"> - </button>
-    <H3></H3>
-    <button onclick="agregardato(1)"> 1 </button><button onclick="agregardato(2)"> 2 </button><button onclick="agregardato(3)"> 3 </button> <button onclick="agregardato(+)"> + </button>
-    <H3></H3>
-    <button onclick="agregardato(0)"> 0 </button><button onclick="agregardato(,)"> , </button> <button onclick="agregardato(operacion)">    =    </button>
-    <H3></H3>
+    <div id="appgg">
+        <form name="calculator">
+        <input type="textfield" name="ans" value="" autocomplete="off" readonly>
+        <br>
+        <input type="button" value="7" onclick="document.calculator.ans.value+='7'">
+        <input type="button" value="8" onclick="document.calculator.ans.value+='8'">
+        <input type="button" value="9" onclick="document.calculator.ans.value+='9'">
+        <input type="reset" value="C">
+        <br>
+        <input type="button" value="4" onclick="document.calculator.ans.value+='4'">
+        <input type="button" value="5" onclick="document.calculator.ans.value+='5'">
+        <input type="button" value="6" onclick="document.calculator.ans.value+='6'">
+        <input type="button" value="+" onclick="document.calculator.ans.value+='+'">
+        <br>
+        <input type="button" value="1" onclick="document.calculator.ans.value+='1'">
+        <input type="button" value="2" onclick="document.calculator.ans.value+='2'">
+        <input type="button" value="3" onclick="document.calculator.ans.value+='3'">
+        <input type="button" value="-" onclick="document.calculator.ans.value+='-'">
+        <br>
+        <input type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+        <input type="button" value="0" onclick="document.calculator.ans.value+='0'">
+        <input type="button" value="/" onclick="document.calculator.ans.value+='/'">
+        <input type="button" value="X" onclick="document.calculator.ans.value+='*'">
+        <br>
     <button id="Boton1">REGRESAR PAGINA INICIAL</button>
     <a id="Enlace1" href="../index.html" style="display: none;"></a>
     <script>
