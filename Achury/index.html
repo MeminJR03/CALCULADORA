@@ -30,16 +30,16 @@
         <input type="button" value="/" onclick="document.calculator.ans.value+='/'">
         <input type="button" value="X" onclick="document.calculator.ans.value+='*'">
         <br>
-    <button id="Boton1">REGRESAR PAGINA INICIAL</button>
-    <a id="Enlace1" href="../index.html" style="display: none;"></a>
-    <script>
-        const boton = document.getElementById('Boton1');
-        const enlace = document.getElementById('Enlace1');
-        boton.addEventListener('click', () => {
-            enlace.style.display = 'block';
-            location.href = enlace.href;
-        });
-    </script>
+        <button id="instruccion">REGRESAR </button>
+        <a id="miEnlace" href="../index.html" style="display: none;"></a>
+        <script>
+            const boton = document.getElementById('instruccion');
+            const enlace = document.getElementById('miEnlace');
+            boton.addEventListener('click', () => {
+                enlace.style.display = 'block';
+                location.href = enlace.href;
+            });
+        </script>
     <style>
         button {
             font-weight: bold;
