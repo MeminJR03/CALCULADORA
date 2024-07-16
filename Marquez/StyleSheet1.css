@@ -1,0 +1,178 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    font-family: 'Arial', sans-serif;
+}
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.calculator {
+    background: linear-gradient(135deg, #00BCD4 10%, #00ACC1 100%);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+}
+
+.display {
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: right;
+    padding: 20px;
+    font-size: 2em;
+    overflow: hidden;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white;
+}
+
+    button:nth-chi…
+  body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+        font-family: 'Arial', sans-serif;
+    }
+
+.calculator {
+    background: linear-gradient(135deg, #FFDDE1 10%, #FFEEDD 100%);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 500px;
+}
+
+.display {
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: right;
+    padding: 20px;
+    font-size: 2em;
+    overflow: hidden;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white;
+}
+
+    button:nth-child(1) {
+        background: #FFB6C1;
+    }
+
+    button:nth-child(2) {
+        background: #FF9A8B;
+    }
+
+    button:nth-child(3) {
+        background: #FFC3A0;
+    }
+
+    button:nth-child(4) {
+        background: #FF8B94;
+    }
+
+    button:nth-child(5) {
+        background: #FFD1C1;
+    }
+
+    button:nth-child(6) {
+        background: #FFD3B6;
+    }
+
+    button:nth-child(7) {
+        background: #FFD8A8;
+    }
+
+    button:nth-child(8) {
+        background: #FFDCB6;
+    }
+
+    button:nth-child(9) {
+        background: #FFDEB8;
+    }
+
+    button:nth-child(10) {
+        background: #FFE0B2;
+    }
+
+    button:nth-child(11) {
+        background: #FFE5B4;
+    }
+
+    button:nth-child(12) {
+        background: #FFEBB7;
+    }
+
+    button:nth-child(13) {
+        background: #FFEBCD;
+    }
+
+    button:nth-child(14) {
+        background: #FFEECD;
+    }
+
+    button:nth-child(15) {
+        background: #FFF0E0;
+    }
+
+    button:nth-child(16) {
+        background: #FFF5E1;
+    }
+
+    button:nth-child(17) {
+        background: #FFFAE6;
+    }
+
+    button:nth-child(18) {
+        background: #FFFBEC;
+    }
+    button:nth-child(19) {
+        background: #f50c3e;
+    }
+
+    button:hover {
+        filter: brightness(1.2);
+    }
+
+    button:active {
+        filter: brightness(0.9);
+    }
+
+.zero {
+    grid-column: span 2;
+}
