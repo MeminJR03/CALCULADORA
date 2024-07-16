@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: aqua ;
+    background-color: #e0f7fa;
     font-family: 'Arial', sans-serif;
 }
 
@@ -26,7 +26,7 @@
 
 .display {
     background: rgba(0, 0, 0, 0.1);
-    color: blue;
+    color: white;
     text-align: right;
     padding: 20px;
     font-size: 2em;
@@ -45,10 +45,11 @@ button {
     font-size: 1.5em;
     cursor: pointer;
     transition: background 0.3s;
-    color: blue;
+    color: white;
 }
 
-body {
+    button:nth-chi…
+  body {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -62,7 +63,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    width: 300px;
+    width: 500px;
 }
 
 .display {
@@ -159,6 +160,9 @@ button {
 
     button:nth-child(18) {
         background: #FFFBEC;
+    }
+    button:nth-child(19) {
+        background: #f50c3e;
     }
 
     button:hover {
